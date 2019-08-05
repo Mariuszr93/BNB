@@ -1,0 +1,164 @@
+@import '_gallery';
+
+@media(max-width: 500px) {
+  // Navigation
+
+  #main-nav {
+
+    #logo {
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+    }
+
+    .hamburger-icon {
+      display: inline-block !important;
+
+      &:hover {
+        background: transparent;
+      }
+    }
+
+    .menu {
+      display: none;
+    }
+
+    h1,
+    .button-light {
+      padding-left: 3rem;
+    }
+  }
+
+  // Homepage header
+  #header {
+    &-homepage {
+      .video-header {
+        background: url(/images/mobile/Homepage.png) no-repeat center center;
+        height: 100vh;
+        width: 100vw;
+        color: #fff;
+
+        .title {
+          padding-top: 20vh;
+          padding-left: 3rem;
+          font-size: 2.4rem;
+          width: 70vw;
+        }
+
+        .subtitle {
+          padding-left: 3rem;
+          padding-top: 2rem;
+        }
+
+        .mouse,
+        .arrow {
+          display: none;
+        }
+
+        .button-light {
+          padding-top: 2rem;
+          padding-left: 3rem;
+        }
+      }
+    }
+  }
+
+  // Articles 
+  #info {
+    .credentials {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+
+      // .subtitle {}
+
+      .black-color {
+        padding-left: 3rem;
+        bottom: 80%;
+      }
+
+      // .gray-color {}
+    }
+  }
+
+  //Gallery 
+  #gallery {
+
+    .preview {
+      height: 150vh;
+      display: flex;
+      flex-direction: column;
+
+      .box {
+        max-width: 100%;
+        max-height: 100%;
+        overflow: hidden;
+        cursor: pointer;
+      }
+
+      .img-3,
+      .img-4 {
+        display: none;
+      }
+    }
+  }
+
+
+  // Testimonials
+
+  #testimonials {
+    padding-top: 8rem;
+
+    .section-title {
+      padding-left: 2rem !important;
+    }
+
+    .glider {
+      #dots {
+        top: 10%;
+        padding-bottom: 2rem;
+      }
+    }
+
+    .testimonial-1 {
+      .quotes {
+
+        img {
+          position: relative;
+          text-align: center;
+          height: 30vh;
+          width: 65vw;
+          top: 5rem;
+          padding-left: 2rem;
+          transform: scale(0.8);
+          z-index: -1;
+        }
+
+        .details {
+          padding-left: 50vw;
+        }
+
+        h4 {
+          color: rgb(165, 152, 152);
+        }
+      }
+
+      .bio {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-bottom: 5rem;
+
+        .person-desc {
+          width: 20rem;
+          font-family: "MyriadProItalic", sans-serif;
+          padding-left: 2rem;
+        }
+
+        img {
+          transform: scale(0.7);
+        }
+
+      }
+    }
+
+  }
+}
