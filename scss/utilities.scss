@@ -25,6 +25,11 @@ a {
   border-radius: 3rem;
   text-transform: uppercase;
 
+  &:hover {
+    background: $green-color;
+    color: $black-color;
+    transition: 0.7s;
+  }
 }
 
 .btn {
@@ -33,6 +38,8 @@ a {
     border: 1px solid rgba(53, 50, 50, 0.555);
     color: rgba(53, 50, 50, 0.555);
     padding-left: 1rem;
+
+
   }
 
   &-light {

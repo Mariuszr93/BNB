@@ -56,8 +56,8 @@
   <!--section texts-->
   <section id="info">
     <div class="credentials">
-      <h1 class=" black-color">Ideas that create their own energy.</h1>
-      <p class="subtitle gray-color">
+      <h1 class=" black-text">Ideas that create their own energy.</h1>
+      <p class="subtitle gray-text">
         We believe advertising has to be the start of something, not the
         end of it. We create work that people want to be part of, that
         gets under the skin of culture, that continues to grow once we’ve
@@ -165,28 +165,46 @@
         </div>
       </div>
       <button class="glider-prev">
-        <img src="images/updated/left -arrow.png" alt="">
+        <img src="images/updated/left -arrow.png" alt="left-arow">
       </button>
       <!-- Second person-->
       <div class="testimonial-1">
         <div class="quotes">
           <img src="images/updated/quotes.png" alt="quotes-logo">
           <div class="details">
-            <h2>Frank Park</h2>
+            <h2>Frank Second</h2>
             <h4>Prode Director</h4>
           </div>
         </div>
         <div class="bio">
           <img src="images/updated/testimonials.png" alt="client">
           <p class="person-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eveniet possimus corrupti quo in vero
-            officia illo aliquid commodi ullam! Fugiat autem, illo ratione voluptatum perferendis dolores dolorem
-            error
-            voluptas!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat at ut, consequatur rem earum natus
+            doloribus
+            dignissimos! Et, pariatur.
           </p>
         </div>
-
       </div>
+      <!-- Third person-->
+      <div class="testimonial-1">
+        <div class="quotes">
+          <img src="images/updated/quotes.png" alt="quotes-logo">
+          <div class="details">
+            <h2>Frank Third</h2>
+            <h4>Prode Director</h4>
+          </div>
+        </div>
+        <div class="bio">
+          <img src="images/updated/testimonials.png" alt="client">
+          <p class="person-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat at ut, consequatur rem earum natus
+            doloribus
+            dignissimos! Et, pariatur.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="bullets" class="glider-dots"></div>
   </section>
 
   <!--Section Brands-->
@@ -195,7 +213,7 @@
       <img src="images/updated/dash-sign.png" class="dash" alt="dash">
       <h4>who we do it for</h4>
       <div class="brands">
-        <div class="brands-logos">
+        <div class="brands-logos set1">
           <img src="images/updated/0062_client-samsung.png" alt="samsung">
           <img src="images/updated/0007_client-linkedin.png" alt="linkedin">
           <img src="images/updated/0011_client-newbalance.png" alt="newbalance">
@@ -205,7 +223,7 @@
           <img src="images/updated/batiste.png" alt="batiste">
           <img src="images/updated/ClientEarth_Logo_Website1.png" alt="earth">
         </div>
-        <div class="brands-logos">
+        <div class="brands-logos set2">
           <img src="images/updated/0062_client-samsung.png" alt="samsung">
           <img src="images/updated/0007_client-linkedin.png" alt="linkedin">
           <img src="images/updated/0011_client-newbalance.png" alt="newbalance">
@@ -215,7 +233,7 @@
           <img src="images/updated/batiste.png" alt="batiste">
           <img src="images/updated/ClientEarth_Logo_Website1.png" alt="earth">
         </div>
-        <div class="brands-logos">
+        <div class="brands-logos set3">
           <img src="images/updated/0062_client-samsung.png" alt="samsung">
           <img src="images/updated/0007_client-linkedin.png" alt="linkedin">
           <img src="images/updated/0011_client-newbalance.png" alt="newbalance">
@@ -226,9 +244,10 @@
           <img src="images/updated/ClientEarth_Logo_Website1.png" alt="earth">
         </div>
       </div>
-      <div id="dots" class="glider-dots"></div>
     </div>
+    <div id="dots" class="glider-dots"></div>
   </section>
+
   <section id="brands-b">
     <div class="posters">
       <img src="images/updated/carousel1.png" alt="posters">
@@ -281,10 +300,12 @@
     new Glider(document.querySelector('.glider'), {
       slidesToShow: 1,
       draggable: true,
+      dots: "#bullets",
       arrows: {
         prev: '.glider-prev',
         next: '.glider-next'
-      }
+      },
+
     });
     new Glider(document.querySelector('.brands'), {
       slidesToShow: 1,
