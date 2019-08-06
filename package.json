@@ -12,7 +12,7 @@
   "license": "ISC",
   "homepage": "https://Mariuszr93.github.io/BNB",
   "dependencies": {
-    "gh-pages": "^2.1.0",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
