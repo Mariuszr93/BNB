@@ -209,6 +209,6 @@ function initMap() {
   const marker = new google.maps.Marker({
     position: loc,
     map: map,
-    icon: '/dist/images/updated/marker.png'
+    icon: '/dist/images/pc/marker.png'
   });
 }

@@ -84,7 +84,7 @@ a {
   grid-row-end: 9;
   position: relative; }
   #gallery .img-0:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -106,7 +106,7 @@ a {
     color: #fff;
     text-transform: uppercase; }
     #gallery .img-0 .text-info .image-desc {
-      font-family: 'MyriadProItalic', sans-serif; }
+      font-family: "MyriadProItalic", sans-serif; }
 
 #gallery .img-1 {
   grid-column-start: 5;
@@ -115,7 +115,7 @@ a {
   grid-row-end: 5;
   position: relative; }
   #gallery .img-1:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -145,7 +145,7 @@ a {
   grid-row-end: 1;
   position: relative; }
   #gallery .img-3:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -175,7 +175,7 @@ a {
   grid-row-end: 9;
   position: relative; }
   #gallery .img-2:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -205,7 +205,7 @@ a {
   grid-row-end: 9;
   position: relative; }
   #gallery .img-4:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -262,7 +262,7 @@ a {
   grid-row-end: 9;
   position: relative; }
   #gallery .img-0:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -284,7 +284,7 @@ a {
     color: #fff;
     text-transform: uppercase; }
     #gallery .img-0 .text-info .image-desc {
-      font-family: 'MyriadProItalic', sans-serif; }
+      font-family: "MyriadProItalic", sans-serif; }
 
 #gallery .img-1 {
   grid-column-start: 5;
@@ -293,7 +293,7 @@ a {
   grid-row-end: 5;
   position: relative; }
   #gallery .img-1:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -323,7 +323,7 @@ a {
   grid-row-end: 1;
   position: relative; }
   #gallery .img-3:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -353,7 +353,7 @@ a {
   grid-row-end: 9;
   position: relative; }
   #gallery .img-2:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -383,7 +383,7 @@ a {
   grid-row-end: 9;
   position: relative; }
   #gallery .img-4:before {
-    content: '';
+    content: "";
     position: absolute;
     display: block;
     opacity: 0.7;
@@ -431,7 +431,7 @@ a {
   #main-nav .button-light {
     padding-left: 3rem; }
   #header-homepage .video-header {
-    background: url(/images/mobile/Homepage.png);
+    background: url("../images/mobile/Homepage.png") no-repeat center center/cover !important;
     height: 100vh;
     width: 100vw;
     color: #fff; }
@@ -513,51 +513,59 @@ a {
         position: relative;
         padding-top: 1rem;
         right: 25vw; }
-  #brands-b {
+  -b {
     padding-top: 3rem;
     background-color: #111; }
-    #brands-b .posters {
+    -b .posters {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1rem; }
-      #brands-b .posters img {
+      -b .posters img {
         object-fit: cover;
         max-width: 100%;
-        max-height: 100%; }
-  #main-footer {
-    width: 100vw;
-    height: 40vh;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-    padding-left: 3rem;
-    max-width: 100%; }
-    #main-footer span {
-      display: block; }
-    #main-footer .details {
-      padding-left: 2rem;
-      color: #857979; }
-    #main-footer .address {
-      padding-left: 2rem;
-      text-align: left; }
-      #main-footer .address .footer-title {
-        font-family: 'MyriadProBold', sans-serif;
-        padding-bottom: 1rem; }
-    #main-footer .copyrights {
-      padding-left: 2rem;
-      width: 100vw;
-      flex-direction: column; }
-      #main-footer .copyrights p {
-        color: #857979; }
-      #main-footer .copyrights .links {
-        height: 8vh;
-        width: 90vw;
-        display: flex;
-        align-content: space-between; }
-        #main-footer .copyrights .links a {
-          text-transform: capitalize;
-          margin-right: 1.2rem;
-          color: #000;
-          font-family: 'MyriadSemiBold', sans-serif; } }
+        max-height: 100%; } }
+
+#main-footer {
+  width: 100vw;
+  height: 40vh;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  max-width: 100%; }
+  #main-footer span {
+    display: block; }
+  #main-footer .details {
+    padding-left: 0rem;
+    color: #857979; }
+  #main-footer .address {
+    padding-left: 0rem;
+    text-align: left; }
+    #main-footer .address .footer-title {
+      font-family: 'MyriadProBold', sans-serif;
+      padding-left: 0rem;
+      padding-bottom: 1rem; }
+  #main-footer .copyrights {
+    margin-top: 1rem;
+    padding-left: 0rem;
+    padding-right: 2rem;
+    width: 50vw;
+    height: 5vh;
+    flex-direction: column; }
+    #main-footer .copyrights p {
+      color: #857979;
+      padding-top: 5vh;
+      width: 90vw; }
+    #main-footer .copyrights .links {
+      height: 8vh;
+      width: 90vw;
+      display: flex;
+      align-content: space-between; }
+      #main-footer .copyrights .links a {
+        text-transform: capitalize;
+        margin-right: 1.2rem;
+        color: #000;
+        font-family: 'MyriadSemiBold', sans-serif; }
 
 @font-face {
   font-family: "SamsungSharpSans";
@@ -640,15 +648,11 @@ a {
   display: block; }
   a:hover {
     color: #857979;
-    -webkit-transition: 0.5s ease;
-    -moz-transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    -ms-transition: 0.5s ease;
     transition: 0.5s ease;
     background: linear-gradient(360deg, #00FF39 35%, transparent 0%); }
 
 #header-homepage .video-header {
-  background: url(/images/updated/Homepage.png) no-repeat center right/cover;
+  background: url("../images/pc/Homepage.png") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
 
@@ -704,7 +708,6 @@ a {
   #testimonials .glider-prev {
     position: absolute;
     text-decoration: none;
-    left: 25rem;
     top: 63%;
     background: 0 0;
     cursor: pointer;
@@ -728,7 +731,6 @@ a {
       color: #a59898;
       margin-left: 1rem; }
     #testimonials .section-title img {
-      text-align: center;
       margin-bottom: 0.2rem; }
 
 .testimonial-1 .quotes img {
@@ -785,8 +787,6 @@ a {
       align-items: center;
       display: grid;
       grid-template-columns: repeat(4, 1fr); }
-    #brands-a .brands .brands-mobile {
-      grid-gap: 15rem; }
 
 #brands-b {
   padding-top: 3rem;
