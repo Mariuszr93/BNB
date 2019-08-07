@@ -1,0 +1,43 @@
+.title {
+  padding-top: 6rem;
+  width: 27rem; }
+
+.subtitle {
+  font-size: 1.3rem;
+  padding: 1rem 0 0 10rem;
+  width: 20rem;
+  font-family: 'MyriadProItalic', sans-serif; }
+
+.white-color {
+  color: #fff; }
+
+a {
+  text-decoration: none; }
+
+.btn-gray, .btn-light {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  border-radius: 3rem;
+  text-transform: uppercase; }
+  .btn-gray:hover, .btn-light:hover {
+    background: #00FF39;
+    color: #000;
+    transition: 0.7s; }
+
+.btn-gray {
+  border: 1px solid rgba(53, 50, 50, 0.555);
+  color: rgba(53, 50, 50, 0.555);
+  padding-left: 1rem; }
+
+.btn-light {
+  border: 1px solid #fff;
+  color: #fff; }
+
+.image-desc {
+  font-family: 'MyriadProItalic', sans-serif; }
+
+.py-left {
+  padding-left: 10rem; }
+
+.py-middle {
+  padding: 2rem 0; }

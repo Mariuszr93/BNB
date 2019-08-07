@@ -5,20 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="BMB - digital marketing, web development, front-end development.">
   <link rel="stylesheet" href="css/glider.min.css" type="text/css">
   <link rel="stylesheet" href="css/main.css" type="text/css" />
-
-  <link rel="fav icon" href="favicon (2).ico" />
+  <link rel="fav icon" href="favicons/favicon-32x32.png" />
   <title>BMB</title>
 </head>
 
 <body>
   <nav id="main-nav">
-
-    <img src="images/updated/bmb_logo.png" alt="bmb_logo" id="logo" class="py-left" />
+    <a href="#" class="main-logo"><img src="images/updated/bmb_logo.png" alt="bmb_logo" id="logo" class="py-left" /></a>
     <a class="hamburger-icon"><img src="images/mobile/hamburger_menu.svg" alt=""></a>
 
-    <ul class="menu mobile-menu">
+    <ul class="menu">
       <li><a href="#">About</a></li>
       <li><a href="#">People</a></li>
       <li><a href="#">Work</a></li>
@@ -56,7 +55,7 @@
   <!--section texts-->
   <section id="info">
     <div class="credentials">
-      <h1 class=" black-text">Ideas that create their own energy.</h1>
+      <h1 class="black-text">Ideas that create their own energy.</h1>
       <p class="subtitle gray-text">
         We believe advertising has to be the start of something, not the
         end of it. We create work that people want to be part of, that
@@ -168,29 +167,14 @@
         <img src="images/updated/left -arrow.png" alt="left-arow">
       </button>
       <!-- Second person-->
+      <button class="glider-prev">
+        <img src="images/updated/left -arrow.png" alt="left-arow">
+      </button>
       <div class="testimonial-1">
         <div class="quotes">
           <img src="images/updated/quotes.png" alt="quotes-logo">
           <div class="details">
             <h2>Frank Second</h2>
-            <h4>Prode Director</h4>
-          </div>
-        </div>
-        <div class="bio">
-          <img src="images/updated/testimonials.png" alt="client">
-          <p class="person-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat at ut, consequatur rem earum natus
-            doloribus
-            dignissimos! Et, pariatur.
-          </p>
-        </div>
-      </div>
-      <!-- Third person-->
-      <div class="testimonial-1">
-        <div class="quotes">
-          <img src="images/updated/quotes.png" alt="quotes-logo">
-          <div class="details">
-            <h2>Frank Third</h2>
             <h4>Prode Director</h4>
           </div>
         </div>
@@ -213,7 +197,18 @@
       <img src="images/updated/dash-sign.png" class="dash" alt="dash">
       <h4>who we do it for</h4>
       <div class="brands">
-        <div class="brands-logos set1">
+        <div class="brands-logos">
+          <img src="images/updated/0062_client-samsung.png" alt="samsung">
+          <img src="images/updated/0007_client-linkedin.png" alt="linkedin">
+          <img src="images/updated/0011_client-newbalance.png" alt="newbalance">
+          <img src="images/updated/0064_client-mondelez.png" alt="mondelez">
+          <img src="images/updated/0069_client-hilton.png" alt="hilton">
+          <img src="images/updated/0070_client-dugout.png" alt="dugout">
+          <img src="images/updated/batiste.png" alt="batiste">
+          <img src="images/updated/ClientEarth_Logo_Website1.png" alt="earth">
+
+        </div>
+        <div class="brands-logos">
           <img src="images/updated/0062_client-samsung.png" alt="samsung">
           <img src="images/updated/0007_client-linkedin.png" alt="linkedin">
           <img src="images/updated/0011_client-newbalance.png" alt="newbalance">
@@ -223,17 +218,7 @@
           <img src="images/updated/batiste.png" alt="batiste">
           <img src="images/updated/ClientEarth_Logo_Website1.png" alt="earth">
         </div>
-        <div class="brands-logos set2">
-          <img src="images/updated/0062_client-samsung.png" alt="samsung">
-          <img src="images/updated/0007_client-linkedin.png" alt="linkedin">
-          <img src="images/updated/0011_client-newbalance.png" alt="newbalance">
-          <img src="images/updated/0064_client-mondelez.png" alt="mondelez">
-          <img src="images/updated/0069_client-hilton.png" alt="hilton">
-          <img src="images/updated/0070_client-dugout.png" alt="dugout">
-          <img src="images/updated/batiste.png" alt="batiste">
-          <img src="images/updated/ClientEarth_Logo_Website1.png" alt="earth">
-        </div>
-        <div class="brands-logos set3">
+        <div class="brands-logos">
           <img src="images/updated/0062_client-samsung.png" alt="samsung">
           <img src="images/updated/0007_client-linkedin.png" alt="linkedin">
           <img src="images/updated/0011_client-newbalance.png" alt="newbalance">
@@ -244,8 +229,8 @@
           <img src="images/updated/ClientEarth_Logo_Website1.png" alt="earth">
         </div>
       </div>
-    </div>
-    <div id="dots" class="glider-dots"></div>
+
+      <div id="dots" class="glider-dots"></div>
   </section>
 
   <section id="brands-b">
@@ -260,13 +245,14 @@
       <img src="images/updated/carousel3.png" alt="bmb">
     </div>
   </section>
+
   <section id="google-map">
     <div class="map"></div>
   </section>
 
   <footer id="main-footer">
     <p class="address py-left">
-      <span class="footer-title">BMB London</span>
+      <span class="footer-title"><strong>BMB London</strong> </span>
       <div class="details py-left">
         <span> The Crane Building</span>
         22 Lavington Street
@@ -283,7 +269,7 @@
         <a href="#">Tax Strategy</a>
         <a href="#">Get in touch</a>
       </div>
-      <p>Copyright (c) 2018 BMB | All Rights Reserved</p>
+      <p class="copyright">Copyright (c) 2018 BMB | All Rights Reserved</p>
     </div>
 
   </footer>
@@ -295,7 +281,6 @@
   <script src="js/script.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnMiIMrUxMNvK_ZiLpPPUs-9XOwyj-lVc&callback=initMap"
     async defer></script>
-
   <script>
     new Glider(document.querySelector('.glider'), {
       slidesToShow: 1,
@@ -312,6 +297,10 @@
       draggable: true,
       dots: '#dots'
     });
+    // new Glider(document.querySelector('.brands-mobile'), {
+    //   slidesToShow: 1,
+    //   dots: '#dots'
+    // });
     new Glider(document.querySelector('#brands-b'), {
       slidesToShow: 1,
       draggable: true,

@@ -1,3 +1,5 @@
+@import '_config';
+
 .title {
   padding-top: 6rem;
   width: 27rem;
@@ -21,9 +23,9 @@ a {
 %btn-shared {
   display: inline-block;
   padding: 0.7rem 1.2rem;
-  cursor: pointer;
   border-radius: 3rem;
   text-transform: uppercase;
+
 
   &:hover {
     background: $green-color;

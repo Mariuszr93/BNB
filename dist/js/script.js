@@ -23,9 +23,12 @@ $('.hamburger-icon').click(function () {
   var nav = $('.mobile-menu');
   nav.slideToggle(200);
   var icont = $('.hamburger-icon');
-  icont.removeClass('menu');
-
+  nav.removeClass('menu');
 });
+
+
+// slider init
+
 
 
 
