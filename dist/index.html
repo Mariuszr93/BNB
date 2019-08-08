@@ -227,8 +227,28 @@
           <img src="images/pc/ClientEarth_Logo_Website1.png" alt="earth">
         </div>
       </div>
-
-      <div id="dots" class="glider-dots"></div>
+      <div id="dots-pc" class="glider-dots"></div>
+      <div class="brands-mobile">
+        <div class="brands-logos">
+          <img src="images/pc/0062_client-samsung.png" alt="samsung">
+          <img src="images/pc/0007_client-linkedin.png" alt="linkedin">
+        </div>
+        <div class="brands-logos">
+          <img src="images/pc/0011_client-newbalance.png" alt="newbalance">
+          <img src="images/pc/0064_client-mondelez.png" alt="mondelez">
+        </div>
+        <div class="brands-logos">
+          <img src="images/pc/0069_client-hilton.png" alt="hilton">
+          <img src="images/pc/0070_client-dugout.png" alt="dugout">
+        </div>
+        <div class="brands-logos">
+          <img src="images/pc/batiste.png" alt="batiste">
+        </div>
+        <div class="brands-logos">
+          <img src="images/pc/ClientEarth_Logo_Website1.png" alt="earth">
+        </div>
+      </div>
+      <div id="dots-mobile" class="glider-dots"></div>
   </section>
 
   <section id="brands-b">
@@ -293,12 +313,12 @@
     new Glider(document.querySelector('.brands'), {
       slidesToShow: 1,
       draggable: true,
-      dots: '#dots'
+      dots: '#dots-pc'
     });
-    // new Glider(document.querySelector('.brands-mobile'), {
-    //   slidesToShow: 1,
-    //   dots: '#dots'
-    // });
+    new Glider(document.querySelector('.brands-mobile'), {
+      slidesToShow: 1,
+      dots: '#dots-mobile'
+    });
     new Glider(document.querySelector('#brands-b'), {
       slidesToShow: 1,
       draggable: true,
