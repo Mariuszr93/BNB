@@ -141,7 +141,7 @@
     opacity: 1;
     -webkit-appearance: none;
     width: 7px;
-    height: 3px
+    height: 0px
   }
 
   .glider::-webkit-scrollbar-thumb {

@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="description" content="BMB - digital marketing, web development, front-end development.">
+  <link rel="preload" href="https://fonts.googleapis.com" as="font" crossorigin>
+  <link rel="preload" href="https://fonts.gstatic.com" as="font" crossorigin>
   <link rel="stylesheet" href="css/glider.min.css" type="text/css">
   <link rel="stylesheet" href="css/main.css" type="text/css" />
   <link rel="fav icon" href="favicons/favicon-32x32.png" />
@@ -17,7 +19,7 @@
     <a href="#" class="main-logo"><img src="images/pc/bmb_logo.png" alt="bmb_logo" id="logo" class="py-left" /></a>
     <a class="hamburger-icon"><img src="images/mobile/hamburger_menu.svg" alt=""></a>
 
-    <ul class="menu">
+    <ul class="menu mobile-menu">
       <li><a href="#">About</a></li>
       <li><a href="#">People</a></li>
       <li><a href="#">Work</a></li>
@@ -194,6 +196,8 @@
     <div class="section-title">
       <img src="images/pc/dash-sign.png" class="dash" alt="dash">
       <h4>who we do it for</h4>
+    </div>
+    <div class="container-pc">
       <div class="brands">
         <div class="brands-logos">
           <img src="images/pc/0062_client-samsung.png" alt="samsung">
@@ -204,7 +208,6 @@
           <img src="images/pc/0070_client-dugout.png" alt="dugout">
           <img src="images/pc/batiste.png" alt="batiste">
           <img src="images/pc/ClientEarth_Logo_Website1.png" alt="earth">
-
         </div>
         <div class="brands-logos">
           <img src="images/pc/0062_client-samsung.png" alt="samsung">
@@ -228,21 +231,23 @@
         </div>
       </div>
       <div id="dots-pc" class="glider-dots"></div>
+    </div>
+    <div class="container-mobile">
       <div class="brands-mobile">
+        <div class="brands-logos">
+          <img src="images/pc/0011_client-newbalance.png" alt="newbalance">
+          <img src="images/pc/batiste.png" alt="batiste">
+        </div>
         <div class="brands-logos">
           <img src="images/pc/0062_client-samsung.png" alt="samsung">
           <img src="images/pc/0007_client-linkedin.png" alt="linkedin">
-        </div>
-        <div class="brands-logos">
-          <img src="images/pc/0011_client-newbalance.png" alt="newbalance">
-          <img src="images/pc/0064_client-mondelez.png" alt="mondelez">
         </div>
         <div class="brands-logos">
           <img src="images/pc/0069_client-hilton.png" alt="hilton">
           <img src="images/pc/0070_client-dugout.png" alt="dugout">
         </div>
         <div class="brands-logos">
-          <img src="images/pc/batiste.png" alt="batiste">
+          <img src="images/pc/0064_client-mondelez.png" alt="mondelez">
         </div>
         <div class="brands-logos">
           <img src="images/pc/ClientEarth_Logo_Website1.png" alt="earth">
@@ -269,8 +274,10 @@
   </section>
 
   <footer id="main-footer">
+
+
     <p class="address py-left">
-      <span class="footer-title"><strong>BMB London</strong> </span>
+      <span class="footer-title"><strong>BMB London</strong></span>
       <div class="details py-left">
         <span> The Crane Building</span>
         22 Lavington Street
@@ -289,41 +296,16 @@
       </div>
       <p class="copyright">Copyright (c) 2018 BMB | All Rights Reserved</p>
     </div>
+    </div>
+    </div>
   </footer>
 
-
   <script src="js/glider.min.js"> </script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnMiIMrUxMNvK_ZiLpPPUs-9XOwyj-lVc&callback=initMap"
     async defer></script>
-
-  <script>
-    new Glider(document.querySelector('.glider'), {
-      slidesToShow: 1,
-      draggable: true,
-      dots: "#bullets",
-      arrows: {
-        prev: '.glider-prev',
-        next: '.glider-next'
-      },
-
-    });
-    new Glider(document.querySelector('.brands'), {
-      slidesToShow: 1,
-      draggable: true,
-      dots: '#dots-pc'
-    });
-    new Glider(document.querySelector('.brands-mobile'), {
-      slidesToShow: 1,
-      dots: '#dots-mobile'
-    });
-    new Glider(document.querySelector('#brands-b'), {
-      slidesToShow: 1,
-      draggable: true,
-    });
-  </script>
 </body>
 
 </html>
