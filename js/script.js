@@ -23,9 +23,12 @@ $('.hamburger-icon').click(function () {
   var nav = $('.mobile-menu');
   nav.slideToggle(200);
   var icont = $('.hamburger-icon');
-  icont.removeClass('menu');
-
+  nav.removeClass('menu');
 });
+
+
+// slider init
+
 
 
 
@@ -206,6 +209,6 @@ function initMap() {
   const marker = new google.maps.Marker({
     position: loc,
     map: map,
-    icon: '/dist/images/updated/marker.png'
+    icon: '/dist/images/pc/marker.png'
   });
 }
