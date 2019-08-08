@@ -277,10 +277,9 @@ a {
     height: 80vh;
     width: 100vw;
 
-
     #dots {
-      top: 10%;
-      padding-bottom: 2rem;
+      top: 50%;
+      padding-bottom: 6rem;
     }
 
     .section-title {
@@ -299,15 +298,13 @@ a {
       }
     }
 
-    .brands-mobile {
-      display: none;
-    }
-
     .brands {
       height: 60vh;
 
       .brands-logos {
-        padding-top: 5rem;
+        padding-top: 25vh;
+        padding-left: 10rem;
+        padding-right: 10rem;
         grid-gap: 3rem;
         align-content: center;
         align-items: center;
@@ -345,6 +342,7 @@ a {
 // Footer Section
 
 #main-footer {
+
   width: 100vw;
   height: 40vh;
   margin-top: 2.5rem;
@@ -361,6 +359,7 @@ a {
   .address {
     text-align: left;
 
+
     .footer-title {
       font-family: 'MyriadProBold', sans-serif;
       padding-bottom: 1rem;
@@ -368,26 +367,27 @@ a {
   }
 
   .copyrights {
+
     padding-right: 10rem;
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
 
-    p {
-      color: $gray-color;
-    }
-
     .links {
-
       display: flex;
       align-content: space-between;
 
       a {
         margin-right: 1.2rem;
+        text-transform: capitalize;
         color: #000;
         font-family: 'MyriadSemiBold', sans-serif;
         background: linear-gradient(360deg, $green-color 35%, transparent 0%);
       }
+    }
+
+    .copyright {
+      color: $gray-color;
     }
   }
 }

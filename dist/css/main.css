@@ -71,8 +71,6 @@ a {
     transition-timing-function: ease-in;
     transition: 1.5s; }
   #gallery .preview img:hover {
-    -moz-transform: scale(1.25);
-    -webkit-transform: scale(1.25);
     transform: scale(1.25);
     transition-timing-function: ease-in;
     transition: 1.5s; }
@@ -83,21 +81,6 @@ a {
   grid-row-start: 1;
   grid-row-end: 9;
   position: relative; }
-  #gallery .img-0:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-0:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-0 .text-info {
     position: absolute;
     font-size: 14px;
@@ -114,21 +97,6 @@ a {
   grid-row-start: 1;
   grid-row-end: 5;
   position: relative; }
-  #gallery .img-1:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-1:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-1 .text-info {
     font-size: 12px;
     width: 13rem;
@@ -144,21 +112,6 @@ a {
   grid-row-start: 5;
   grid-row-end: 1;
   position: relative; }
-  #gallery .img-3:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-3:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-3 .text-info {
     font-size: 12px;
     width: 13rem;
@@ -174,21 +127,6 @@ a {
   grid-row-start: 5;
   grid-row-end: 9;
   position: relative; }
-  #gallery .img-2:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-2:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-2 .text-info {
     font-size: 12px;
     width: 13rem;
@@ -204,21 +142,6 @@ a {
   grid-row-start: 5;
   grid-row-end: 9;
   position: relative; }
-  #gallery .img-4:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-4:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-4 .text-info {
     font-size: 12px;
     width: 13rem;
@@ -227,6 +150,31 @@ a {
     left: 4%;
     color: #fff;
     text-transform: uppercase; }
+
+#gallery .img-0:before,
+#gallery .img-1:before,
+#gallery .img-2:before,
+#gallery .img-3:before,
+#gallery .img-4:before {
+  content: "";
+  position: absolute;
+  display: block;
+  opacity: 0.7;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0.75;
+  transition-timing-function: ease-in;
+  transition: 1.5s; }
+
+#gallery .img-0:hover:before,
+#gallery .img-1:hover:before,
+#gallery .img-2:hover:before,
+#gallery .img-3:hover:before,
+#gallery .img-4:hover:before {
+  transition: 0.5s;
+  background: #00FF39; }
 
 #gallery .button-gray {
   padding-top: 6rem;
@@ -249,8 +197,6 @@ a {
     transition-timing-function: ease-in;
     transition: 1.5s; }
   #gallery .preview img:hover {
-    -moz-transform: scale(1.25);
-    -webkit-transform: scale(1.25);
     transform: scale(1.25);
     transition-timing-function: ease-in;
     transition: 1.5s; }
@@ -261,21 +207,6 @@ a {
   grid-row-start: 1;
   grid-row-end: 9;
   position: relative; }
-  #gallery .img-0:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-0:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-0 .text-info {
     position: absolute;
     font-size: 14px;
@@ -292,21 +223,6 @@ a {
   grid-row-start: 1;
   grid-row-end: 5;
   position: relative; }
-  #gallery .img-1:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-1:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-1 .text-info {
     font-size: 12px;
     width: 13rem;
@@ -322,21 +238,6 @@ a {
   grid-row-start: 5;
   grid-row-end: 1;
   position: relative; }
-  #gallery .img-3:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-3:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-3 .text-info {
     font-size: 12px;
     width: 13rem;
@@ -352,21 +253,6 @@ a {
   grid-row-start: 5;
   grid-row-end: 9;
   position: relative; }
-  #gallery .img-2:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-2:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-2 .text-info {
     font-size: 12px;
     width: 13rem;
@@ -382,21 +268,6 @@ a {
   grid-row-start: 5;
   grid-row-end: 9;
   position: relative; }
-  #gallery .img-4:before {
-    content: "";
-    position: absolute;
-    display: block;
-    opacity: 0.7;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    opacity: 0.75;
-    transition-timing-function: ease-in;
-    transition: 1.5s; }
-  #gallery .img-4:hover:before {
-    transition: 0.5s;
-    background: #00FF39; }
   #gallery .img-4 .text-info {
     font-size: 12px;
     width: 13rem;
@@ -406,12 +277,39 @@ a {
     color: #fff;
     text-transform: uppercase; }
 
+#gallery .img-0:before,
+#gallery .img-1:before,
+#gallery .img-2:before,
+#gallery .img-3:before,
+#gallery .img-4:before {
+  content: "";
+  position: absolute;
+  display: block;
+  opacity: 0.7;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: 0.75;
+  transition-timing-function: ease-in;
+  transition: 1.5s; }
+
+#gallery .img-0:hover:before,
+#gallery .img-1:hover:before,
+#gallery .img-2:hover:before,
+#gallery .img-3:hover:before,
+#gallery .img-4:hover:before {
+  transition: 0.5s;
+  background: #00FF39; }
+
 #gallery .button-gray {
   padding-top: 6rem;
   text-align: center; }
 
 @media (min-width: 1024px) {
   #testimonials #bullets {
+    display: none; }
+  #brands-a .container-mobile {
     display: none; } }
 
 @media (max-width: 500px) {
@@ -432,9 +330,7 @@ a {
     padding-left: 3rem; }
   #header-homepage .video-header {
     background: url("../images/mobile/Homepage.png") no-repeat center center/cover !important;
-    height: 100vh;
-    width: 100vw;
-    color: #fff; }
+    width: 100vw; }
     #header-homepage .video-header .title {
       padding-top: 10vh;
       padding-left: 3rem;
@@ -491,15 +387,9 @@ a {
       height: 100%;
       padding-bottom: 7rem; }
       #testimonials .testimonial-1 .quotes img {
-        position: relative;
         height: 30vh;
         width: 65vw;
-        padding-left: 10vw;
-        transform: scale(0.8); }
-      #testimonials .testimonial-1 .quotes .details {
-        padding-left: 50vw; }
-      #testimonials .testimonial-1 .quotes h4 {
-        color: #a59898; }
+        padding-left: 10vw; }
     #testimonials .testimonial-1 .bio {
       display: flex;
       flex-direction: column;
@@ -507,7 +397,6 @@ a {
       padding-bottom: 5rem; }
       #testimonials .testimonial-1 .bio .person-desc {
         width: 80vw;
-        font-family: "MyriadProItalic", sans-serif;
         padding-left: 2rem; }
       #testimonials .testimonial-1 .bio img {
         position: relative;
@@ -524,55 +413,33 @@ a {
         object-fit: cover;
         max-width: 100%;
         max-height: 100%; }
-  #brands-a {
-    background-color: #111;
-    height: 80vh;
-    width: 100vw; }
-    #brands-a #dots-mobile {
-      top: 10%;
-      padding-bottom: 2rem; }
-    #brands-a .section-title {
-      padding-top: 0rem;
-      padding-left: 0rem;
-      align-content: center; }
-      #brands-a .section-title h4 {
-        display: inline-block;
-        color: #a59898;
-        margin-left: 1rem; }
-      #brands-a .section-title img {
-        text-align: center;
-        margin-bottom: 0.2rem; }
-    #brands-a .brands {
-      display: none; }
-    #brands-a .brands-mobile {
-      height: 60vh; }
-      #brands-a .brands-mobile .brands-logos {
-        padding-top: 5rem;
-        grid-gap: 3rem;
-        align-content: center;
-        align-items: center;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr); }
+  #brands-a .section-title {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    padding-left: 2rem !important; }
+  #brands-a .container-pc {
+    display: none; }
+  #brands-a .container-mobile {
+    display: contents !important; }
+  #brands-a .brands-mobile {
+    height: 60vh;
+    width: 100vh; }
+    #brands-a .brands-mobile .brands-logos {
+      padding-top: 15vh;
+      padding-left: 25vw;
+      grid-gap: 4rem;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); }
   #main-footer {
-    width: 100vw;
-    height: 40vh;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
     max-width: 100%; }
-    #main-footer span {
-      display: block; }
-    #main-footer .details {
-      padding-left: 0rem;
-      color: #857979; }
     #main-footer .address {
-      padding-left: 0rem;
-      text-align: left; }
-      #main-footer .address .footer-title {
-        font-family: 'MyriadProBold', sans-serif;
-        padding-left: 0rem;
-        padding-bottom: 1rem; }
+      padding-left: 0; }
+    #main-footer .details {
+      padding-left: 0; }
+    #main-footer .footer-title {
+      padding-left: 0; }
     #main-footer .copyrights {
       margin-top: 1rem;
       padding-left: 0rem;
@@ -581,19 +448,11 @@ a {
       height: 5vh;
       flex-direction: column; }
       #main-footer .copyrights p {
-        color: #857979;
         padding-top: 5vh;
         width: 90vw; }
       #main-footer .copyrights .links {
         height: 8vh;
-        width: 90vw;
-        display: flex;
-        align-content: space-between; }
-        #main-footer .copyrights .links a {
-          text-transform: capitalize;
-          margin-right: 1.2rem;
-          color: #000;
-          font-family: 'MyriadSemiBold', sans-serif; } }
+        width: 90vw; } }
 
 @font-face {
   font-family: "SamsungSharpSans";
@@ -794,8 +653,8 @@ a {
   height: 80vh;
   width: 100vw; }
   #brands-a #dots {
-    top: 10%;
-    padding-bottom: 2rem; }
+    top: 50%;
+    padding-bottom: 6rem; }
   #brands-a .section-title {
     padding-top: 3rem;
     padding-left: 10rem; }
@@ -806,12 +665,12 @@ a {
     #brands-a .section-title img {
       text-align: center;
       margin-bottom: 0.2rem; }
-  #brands-a .brands-mobile {
-    display: none; }
   #brands-a .brands {
     height: 60vh; }
     #brands-a .brands .brands-logos {
-      padding-top: 5rem;
+      padding-top: 25vh;
+      padding-left: 10rem;
+      padding-right: 10rem;
       grid-gap: 3rem;
       align-content: center;
       align-items: center;
@@ -853,13 +712,14 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 2rem; }
-    #main-footer .copyrights p {
-      color: #857979; }
     #main-footer .copyrights .links {
       display: flex;
       align-content: space-between; }
       #main-footer .copyrights .links a {
         margin-right: 1.2rem;
+        text-transform: capitalize;
         color: #000;
         font-family: 'MyriadSemiBold', sans-serif;
         background: linear-gradient(360deg, #00FF39 35%, transparent 0%); }
+    #main-footer .copyrights .copyright {
+      color: #857979; }

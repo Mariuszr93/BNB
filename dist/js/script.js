@@ -1,23 +1,5 @@
-// window.addEventListener('scroll', function () {
-//   if (window.scrollY > 150) {
-//     document.querySelector('#main-nav').style.opacity = 0.9;
-//   } else {
-//     document.querySelector('#main-nav').style.opacity = 1;
-//   }
-// });
-
-
-// $(document).ready(function () {
-//   $('#testimonials').slick({
-//     dots: true
-
-
-//   });
-// });
-
-
-//mobile menu pop-up
-/* Mobile navigation */
+/*Mobile menu pop-up
+ Mobile navigation TODO */
 
 $('.hamburger-icon').click(function () {
   var nav = $('.mobile-menu');
@@ -27,13 +9,35 @@ $('.hamburger-icon').click(function () {
 });
 
 
-// slider init
+// slider - "Glider.js" init
 
 
+new Glider(document.querySelector('.glider'), {
+  slidesToShow: 1,
+  draggable: true,
+  dots: "#bullets",
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  },
+
+});
+new Glider(document.querySelector('.brands'), {
+  slidesToShow: 1,
+  draggable: true,
+  dots: '#dots-pc'
+});
+new Glider(document.querySelector('.brands-mobile'), {
+  slidesToShow: 1,
+  dots: '#dots-mobile'
+});
+new Glider(document.querySelector('#brands-b'), {
+  slidesToShow: 1,
+  draggable: true,
+});
 
 
-
-// map init
+// Map section init
 
 function initMap() {
 

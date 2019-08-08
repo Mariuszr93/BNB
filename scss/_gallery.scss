@@ -13,18 +13,14 @@
 
     img {
       width: 100%;
-
       height: 100%;
       opacity: 0.75;
       overflow: hidden;
-
       transition-timing-function: ease-in;
       transition: 1.5s;
     }
 
     img:hover {
-      -moz-transform: scale(1.25);
-      -webkit-transform: scale(1.25);
       transform: scale(1.25);
       transition-timing-function: ease-in;
       transition: 1.5s;
@@ -37,27 +33,6 @@
     grid-row-start: 1;
     grid-row-end: 9;
     position: relative;
-
-    &:before {
-      content: "";
-      position: absolute;
-      display: block;
-      opacity: 0.7;
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 100%;
-      opacity: 0.75;
-      transition-timing-function: ease-in;
-      transition: 1.5s;
-    }
-
-    // bring in main color overlay
-
-    &:hover:before {
-      transition: 0.5s;
-      background: $green-color;
-    }
 
     .text-info {
       position: absolute;
@@ -80,27 +55,6 @@
     grid-row-end: 5;
     position: relative;
 
-    &:before {
-      content: "";
-      position: absolute;
-      display: block;
-      opacity: 0.7;
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 100%;
-      opacity: 0.75;
-      transition-timing-function: ease-in;
-      transition: 1.5s;
-    }
-
-    // bring in main color overlay
-
-    &:hover:before {
-      transition: 0.5s;
-      background: $green-color;
-    }
-
     .text-info {
       font-size: 12px;
       width: 13rem;
@@ -118,27 +72,6 @@
     grid-row-start: 5;
     grid-row-end: 1;
     position: relative;
-
-    &:before {
-      content: "";
-      position: absolute;
-      display: block;
-      opacity: 0.7;
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 100%;
-      opacity: 0.75;
-      transition-timing-function: ease-in;
-      transition: 1.5s;
-    }
-
-    // bring in main color overlay
-
-    &:hover:before {
-      transition: 0.5s;
-      background: $green-color;
-    }
 
     .text-info {
       font-size: 12px;
@@ -158,27 +91,6 @@
     grid-row-end: 9;
     position: relative;
 
-    &:before {
-      content: "";
-      position: absolute;
-      display: block;
-      opacity: 0.7;
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 100%;
-      opacity: 0.75;
-      transition-timing-function: ease-in;
-      transition: 1.5s;
-    }
-
-    // bring in main color overlay
-
-    &:hover:before {
-      transition: 0.5s;
-      background: $green-color;
-    }
-
     .text-info {
       font-size: 12px;
       width: 13rem;
@@ -197,6 +109,23 @@
     grid-row-end: 9;
     position: relative;
 
+    .text-info {
+      font-size: 12px;
+      width: 13rem;
+      position: absolute;
+      top: 70%;
+      left: 4%;
+      color: $white-color;
+      text-transform: uppercase;
+    }
+
+  }
+
+  .img-0,
+  .img-1,
+  .img-2,
+  .img-3,
+  .img-4 {
     &:before {
       content: "";
       position: absolute;
@@ -211,21 +140,9 @@
       transition: 1.5s;
     }
 
-    // bring in main color overlay
-
     &:hover:before {
       transition: 0.5s;
       background: $green-color;
-    }
-
-    .text-info {
-      font-size: 12px;
-      width: 13rem;
-      position: absolute;
-      top: 70%;
-      left: 4%;
-      color: $white-color;
-      text-transform: uppercase;
     }
   }
 
